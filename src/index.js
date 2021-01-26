@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Menubar from './components/navbar'
+import Footer from './components/footer'
 ReactDOM.render(
   <React.StrictMode>
+    <Menubar/>
     <App />
+    {/* <Footer /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
