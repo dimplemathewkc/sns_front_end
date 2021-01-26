@@ -57,7 +57,7 @@ function App(){
             </Card.Body>
           </Card>
          </div>)}
-         {/* <code>Tracks for category: {category}</code> <input type="submit" value="Next" onClick={handleSubmit}/> */}
+         <code>Tracks for category: {category}</code> <input type="submit" value="Next" onClick={handleSubmit}/>
     </Container>
     
   )
