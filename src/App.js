@@ -12,10 +12,10 @@ function App() {
   const [category, setCategory] = useState("");
   const [fetchedData, setFetchedData] = useState([])
   const [state, setState] = useState(false)
-  const url = 'https://shop-n-sing.herokuapp.com/category?category='
+  const category_url = 'https://shop-n-sing.herokuapp.com/category?category='
   async function fetchData() {
     const { data } = await axios.get(
-      url + category
+      category_url + category
     )
     setFetchedData(data)
   }
